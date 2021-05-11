@@ -1,0 +1,406 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>1. Etude d’une lunette astronomique. (1h) &#8212; Etude de systèmes optiques</title>
+    
+  <link rel="stylesheet" href="../_static/css/index.f658d18f9b420779cfdf24aa0a7e2d77.css">
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+  <link rel="stylesheet"
+    href="../_static/vendor/open-sans_all/1.44.1/index.css">
+  <link rel="stylesheet"
+    href="../_static/vendor/lato_latin-ext/1.44.1/index.css">
+
+    
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/sphinx-book-theme.c441f2ba0852f4cabcb80105e3a46ae6.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="../_static/js/index.d3f166471bb80abb5163.js">
+
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../_static/sphinx-book-theme.7d483ff0a819d6edff12ce0b1ead3928.js"></script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"inlineMath": [["\\(", "\\)"]], "displayMath": [["\\[", "\\]"]], "processRefs": false, "processEnvironments": false}})</script>
+    <link rel="canonical" href="https://pcsi3physiquestan.github.io/tp2_optique/notebook/lunette.html" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="1. Détermination d’une distance focale pour une lentille divergente." href="supplement.html" />
+    <link rel="prev" title="4. Etude quantitative" href="etude_complete.html" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+
+
+<!-- Opengraph tags -->
+<meta property="og:url"         content="https://pcsi3physiquestan.github.io/tp2_optique/notebook/lunette.html" />
+<meta property="og:type"        content="article" />
+<meta property="og:title"       content="Etude d’une lunette astronomique. (1h)" />
+<meta property="og:description" content="Etude d’une lunette astronomique. (1h)  Une lunette de Galilée est une lunette astronomique, c’est-à-dire destinée à viser des objets à l’infini, dont le dispos" />
+
+
+<meta name="twitter:card" content="summary" />
+
+
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+<a class="navbar-brand text-wrap" href="../index.html">
+  
+  
+  <h1 class="site-logo" id="site-title">Etude de systèmes optiques</h1>
+  
+</a>
+</div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form>
+<nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+    <ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../tp2_optique.html">
+   Introduction
+  </a>
+ </li>
+</ul>
+<p class="caption collapsible-parent">
+ <span class="caption-text">
+  Focométrie
+ </span>
+</p>
+<ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="etude_preliminaire.html">
+   1. Etude préliminaire
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="etude_rapide.html">
+   2. Présentation rapide du matériel
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="etude_rapide.html#focometrie-etude-semi-quantitative">
+   3. Focométrie : Etude semi-quantitative
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="etude_complete.html">
+   4. Etude quantitative
+  </a>
+ </li>
+</ul>
+<p class="caption collapsible-parent">
+ <span class="caption-text">
+  Construction d'une lunette
+ </span>
+</p>
+<ul class="current nav sidenav_l1">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   1. Etude d’une lunette astronomique. (1h)
+  </a>
+ </li>
+</ul>
+<p class="caption collapsible-parent">
+ <span class="caption-text">
+  Travaux supplémentaires
+ </span>
+</p>
+<ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="supplement.html">
+   1. Détermination d’une distance focale pour une lentille divergente.
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="supplement.html#utilisation-d-une-regression-lineaire">
+   2. Utilisation d’une régression linéaire
+  </a>
+ </li>
+</ul>
+
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  <a href="https://www.cedriclacpatia.fr">Site de la classe</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        <a class="dropdown-buttons"
+            href="../_sources/notebook/lunette.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download notebook file" data-toggle="tooltip"
+                data-placement="left">.ipynb</button></a>
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../_sources/notebook/lunette.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+            <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+                    data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+                    title="Fullscreen mode"><i
+                        class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
+    <div class="dropdown-buttons">
+        
+        <a class="binder-button" href="https://mybinder.org/v2/gh/executablebooks/jupyter-book/master?urlpath=tree/notebook/lunette.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
+                data-placement="left"><img class="binder-button-logo"
+                    src="../_static/images/logo_binder.svg"
+                    alt="Interact on binder">Binder</button></a>
+        
+        
+        
+        
+    </div>
+</div>
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
+        <div class="tocsection onthispage pt-5 pb-3">
+            <i class="fas fa-list"></i>
+            Contents
+        </div>
+        <nav id="bd-toc-nav">
+            <ul class="nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#cahier-des-charges-de-la-lunette">
+   1.1. Cahier des charges de la lunette
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#materiel-a-disposition">
+   1.2. Matériel à disposition
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#oeil-emmetrope-au-repos">
+   1.3. Oeil emmétrope au repos
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#lunette-de-galilee">
+   1.4. Lunette de Galilée
+  </a>
+ </li>
+</ul>
+
+        </nav>
+        
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <p>Cette partie du TP est complètement indépendante des précédentes. Vous allez apprendre à manipuler les notions en rapport avec les objets à l’infini. Cette partie est peu guidée. C’est à vous de :</p>
+<ul class="simple">
+<li><p>proposer un protocole répondant aux problématiques posées.</p></li>
+<li><p>réaliser ce protocole et réaliser les bilans d’incertitude nécessaires.</p></li>
+<li><p>exploiter les mesures que vous aurez obtenus pour répondre aux problématiques posées.</p></li>
+</ul>
+<p>Ce notebook est téléchargeable en versino <code class="docutils literal notranslate"><span class="pre">.ipynb</span></code> grâce au bouton <img alt="Bouton téléchargerment" src="../_images/bouton_tl.png" />. <em>On rappelle qu’il faut choisir le format <code class="docutils literal notranslate"><span class="pre">.ipynb</span></code> et le placer dans un répertoire adapté pour l’ouvrir avec Jupyer Notebook</em>).</p>
+<div class="section" id="etude-d-une-lunette-astronomique-1h">
+<h1><span class="section-number">1. </span>Etude d’une lunette astronomique. (1h)<a class="headerlink" href="#etude-d-une-lunette-astronomique-1h" title="Permalink to this headline">¶</a></h1>
+<p>Une lunette de Galilée est une lunette astronomique, c’est-à-dire destinée à viser des objets à l’infini, dont le dispositif oculaire est un système divergent. Nous allons chercher à construire une lunette de Galilée destinée à être utilisé par un oeil emmétrope dans les meilleurs conditions. Dans son modèle le plus simple, une lunette de Galilée est constituée :</p>
+<ul class="simple">
+<li><p>d’un objectif réalisé par une lentille convergente</p></li>
+<li><p>d’un oculaire réalisé par une lentille divergente</p></li>
+</ul>
+<div class="section" id="cahier-des-charges-de-la-lunette">
+<h2><span class="section-number">1.1. </span>Cahier des charges de la lunette<a class="headerlink" href="#cahier-des-charges-de-la-lunette" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>La lunette de Galilée construire devra satisfaire la description précédente.</p></li>
+<li><p>De plus, une lunette sert à grossir les objets observés pour mieux en visualiser les détails. Si les grossissements des lunettes du commerce peuvent atteindre <span class="math notranslate nohighlight">\(\times 10\)</span> à <span class="math notranslate nohighlight">\(\times 400\)</span>, nous nous contenterons ici d’un faible grossissement (à cause des faibles diamètres de la lentille). On impose donc que le grossissement soit compris entre 1,4 et 2.</p></li>
+<li><p>La lunette devra être utilisée par l’oeil humain emmétrope ou avec ses défauts. On la testera avec un oeil au repos modélisé par <strong>un système lentille + écran avec une lentille +200mm</strong>.</p></li>
+<li><p>Pour régler la lunette, on fait “comme s’il s’agissait d’une vraie lunette” : on ne peut pas la démonter pour mesurer les distances focales des lentilles (qui ne sont connues qu’à 10%). <strong>On devra donc proposer un protocole de réglage de la lunette par l’utilisateur (l’oeil emmétrope) sans connaître les distances focales.</strong></p></li>
+</ul>
+</div>
+<div class="section" id="materiel-a-disposition">
+<h2><span class="section-number">1.2. </span>Matériel à disposition<a class="headerlink" href="#materiel-a-disposition" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>1 Banc optique</p></li>
+<li><p>6 Cavaliers (différents régagles sont possibles sur les cavaliers)</p></li>
+<li><p>4 Porte-objet/lentilles</p></li>
+<li><p>1 Objet lumineux LED</p></li>
+<li><p>1 Objet de précision</p></li>
+<li><p>1 Lunette afocale</p></li>
+<li><p>1 Ecran</p></li>
+<li><p>3 Lentilles sur pieds (Valeurs indicatives, <strong>elles peuvent changer le jour du TP</strong> : +100mm ; +200mm, -100mm)</p></li>
+<li><p>4 Lentilles sans pieds (Valeurs indicatives, <strong>elles peuvent changer le jour du TP</strong> : +50mm +150mm ; +300m ; -300mm)</p></li>
+<li><p>1 Miroir Plan</p></li>
+</ul>
+</div>
+<div class="section" id="oeil-emmetrope-au-repos">
+<h2><span class="section-number">1.3. </span>Oeil emmétrope au repos<a class="headerlink" href="#oeil-emmetrope-au-repos" title="Permalink to this headline">¶</a></h2>
+<p>Proposer un protocole permettant de simuler l’oeil emmétrope au repos constitué de la lentille de focale +200mm et d’un écran. Procéder ensuite à la réalisation de cet oeil emmétrope.</p>
+</div>
+<div class="section" id="lunette-de-galilee">
+<h2><span class="section-number">1.4. </span>Lunette de Galilée<a class="headerlink" href="#lunette-de-galilee" title="Permalink to this headline">¶</a></h2>
+<p>Vous devez maintenant :</p>
+<ol class="simple">
+<li><p>Choisir des distances focales adaptées pour construire une lunette de Galilée répondant au cahier des charges.</p></li>
+<li><p>Proposer puis réaliser un protocole pour régler la lunette et la rendre utilisable par l’oeil emmétrope au repos construit précédemment. <strong>On rappelle que vous devez partir du principe que vous ne connaissez pas les distances focales des lentilles pour ce réglage.</strong></p></li>
+<li><p>Proposer puis réaliser un protocole permettant de mesurer le grossissement de la lunette ainsi construite. On devra vérifier l’adéquation entre la valeur mesurée et le cahier des charges.</p></li>
+</ol>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">Utilisez cette cellule pour réaliser les simulations de Monte-Carlo adéquates et obtenir les incertitude de mesure que vous devez calculer.</span>
+
+<span class="sd">Attention, les bibliothèques scientifiques n&#39;ont pas été chargées. Vous êtes complètement libre dans votre traitement.</span>
+<span class="sd">&quot;&quot;&quot;</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&quot;\nUtilisez cette cellule pour réaliser les simulations de Monte-Carlo adéquates et obtenir les incertitude de mesure que vous devez calculer.\n\nAttention, les bibliothèques scientifiques n&#39;ont pas été chargées. Vous êtes complètement libre dans votre traitement.\n&quot;
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./notebook"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        
+        <div class='prev-next-bottom'>
+            
+    <a class='left-prev' id="prev-link" href="etude_complete.html" title="previous page"><span class="section-number">4. </span>Etude quantitative</a>
+    <a class='right-next' id="next-link" href="supplement.html" title="next page"><span class="section-number">1. </span>Détermination d’une distance focale pour une lentille divergente.</a>
+
+        </div>
+        
+        </div>
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By C. Lacpatia<br/>
+        
+            &copy; Copyright 2021.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+
+    
+  <script src="../_static/js/index.d3f166471bb80abb5163.js"></script>
+
+
+    
+  </body>
+</html>

@@ -1,0 +1,510 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2. Présentation rapide du matériel &#8212; Etude de systèmes optiques</title>
+    
+  <link rel="stylesheet" href="../_static/css/index.f658d18f9b420779cfdf24aa0a7e2d77.css">
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+  <link rel="stylesheet"
+    href="../_static/vendor/open-sans_all/1.44.1/index.css">
+  <link rel="stylesheet"
+    href="../_static/vendor/lato_latin-ext/1.44.1/index.css">
+
+    
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/sphinx-book-theme.c441f2ba0852f4cabcb80105e3a46ae6.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="../_static/js/index.d3f166471bb80abb5163.js">
+
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../_static/sphinx-book-theme.7d483ff0a819d6edff12ce0b1ead3928.js"></script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"inlineMath": [["\\(", "\\)"]], "displayMath": [["\\[", "\\]"]], "processRefs": false, "processEnvironments": false}})</script>
+    <link rel="canonical" href="https://pcsi3physiquestan.github.io/tp2_optique/notebook/etude_rapide.html" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="4. Etude quantitative" href="etude_complete.html" />
+    <link rel="prev" title="1. Etude préliminaire" href="etude_preliminaire.html" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+
+
+<!-- Opengraph tags -->
+<meta property="og:url"         content="https://pcsi3physiquestan.github.io/tp2_optique/notebook/etude_rapide.html" />
+<meta property="og:type"        content="article" />
+<meta property="og:title"       content="Présentation rapide du matériel" />
+<meta property="og:description" content="Présentation rapide du matériel    Cette partie fait suite à l’étude préliminaire du même nom.  Détermination rapide du type de lentille (20mn)  On se propose d" />
+
+
+<meta name="twitter:card" content="summary" />
+
+
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+<a class="navbar-brand text-wrap" href="../index.html">
+  
+  
+  <h1 class="site-logo" id="site-title">Etude de systèmes optiques</h1>
+  
+</a>
+</div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form>
+<nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+    <ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../tp2_optique.html">
+   Introduction
+  </a>
+ </li>
+</ul>
+<p class="caption collapsible-parent">
+ <span class="caption-text">
+  Focométrie
+ </span>
+</p>
+<ul class="current nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="etude_preliminaire.html">
+   1. Etude préliminaire
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   2. Présentation rapide du matériel
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="#focometrie-etude-semi-quantitative">
+   3. Focométrie : Etude semi-quantitative
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="etude_complete.html">
+   4. Etude quantitative
+  </a>
+ </li>
+</ul>
+<p class="caption collapsible-parent">
+ <span class="caption-text">
+  Construction d'une lunette
+ </span>
+</p>
+<ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="lunette.html">
+   1. Etude d’une lunette astronomique. (1h)
+  </a>
+ </li>
+</ul>
+<p class="caption collapsible-parent">
+ <span class="caption-text">
+  Travaux supplémentaires
+ </span>
+</p>
+<ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="supplement.html">
+   1. Détermination d’une distance focale pour une lentille divergente.
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="supplement.html#utilisation-d-une-regression-lineaire">
+   2. Utilisation d’une régression linéaire
+  </a>
+ </li>
+</ul>
+
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  <a href="https://www.cedriclacpatia.fr">Site de la classe</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        <a class="dropdown-buttons"
+            href="../_sources/notebook/etude_rapide.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download notebook file" data-toggle="tooltip"
+                data-placement="left">.ipynb</button></a>
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../_sources/notebook/etude_rapide.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+            <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+                    data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+                    title="Fullscreen mode"><i
+                        class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
+    <div class="dropdown-buttons">
+        
+        <a class="binder-button" href="https://mybinder.org/v2/gh/executablebooks/jupyter-book/master?urlpath=tree/notebook/etude_rapide.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
+                data-placement="left"><img class="binder-button-logo"
+                    src="../_static/images/logo_binder.svg"
+                    alt="Interact on binder">Binder</button></a>
+        
+        
+        
+        
+    </div>
+</div>
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
+        <div class="tocsection onthispage pt-5 pb-3">
+            <i class="fas fa-list"></i>
+            Contents
+        </div>
+        <nav id="bd-toc-nav">
+            <ul class="nav section-nav flex-column">
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#">
+   2. Présentation rapide du matériel
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#determination-rapide-du-type-de-lentille-20mn">
+     2.1. Détermination rapide du type de lentille (20mn)
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#forme-de-la-lentille">
+       2.1.1. Forme de la lentille
+      </a>
+     </li>
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#observation-d-un-objet-lointain">
+       2.1.2. Observation d’un objet lointain.
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#instruments-d-optique-40mn">
+     2.2. Instruments d’optique (40mn)
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#exemple-d-utilisation">
+       2.2.1. Exemple d’utilisation.
+      </a>
+      <ul class="nav section-nav flex-column">
+       <li class="toc-h4 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#utilisation-d-un-ecran">
+         2.2.1.1. Utilisation d’un écran
+        </a>
+       </li>
+       <li class="toc-h4 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#utilisation-d-un-viseur">
+         2.2.1.2. Utilisation d’un viseur.
+        </a>
+       </li>
+       <li class="toc-h4 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#comparaison-qualitative">
+         2.2.1.3. Comparaison qualitative.
+        </a>
+       </li>
+      </ul>
+     </li>
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#conclusion">
+       2.2.2. Conclusion
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#focometrie-etude-semi-quantitative">
+   3. Focométrie : Etude semi-quantitative
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#utilisation-des-relations-de-descartes-1h">
+     3.1. Utilisation des relations de Descartes (1h)
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#utilisation-des-relations-de-bessel-1h">
+     3.2. Utilisation des relations de Bessel (1h)
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+        </nav>
+        
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <p>On va commencer par réaliser les expériences sans se soucier des incertitudes de mesure pour apprendre à utiliser le matériel d’optique. Le compte-rendu est un compte-rendu écrit qui fera suite à l’étude préliminéaire précédente.</p>
+<div class="section" id="presentation-rapide-du-materiel">
+<h1><span class="section-number">2. </span>Présentation rapide du matériel<a class="headerlink" href="#presentation-rapide-du-materiel" title="Permalink to this headline">¶</a></h1>
+<div class="margin sidebar">
+<p class="sidebar-title"></p>
+<p>Cette partie fait suite à l’étude préliminaire du même nom.</p>
+</div>
+<div class="section" id="determination-rapide-du-type-de-lentille-20mn">
+<h2><span class="section-number">2.1. </span>Détermination rapide du type de lentille (20mn)<a class="headerlink" href="#determination-rapide-du-type-de-lentille-20mn" title="Permalink to this headline">¶</a></h2>
+<p>On se propose d’utiliser deux méthodes pour déterminer le type de lentille :</p>
+<ul class="simple">
+<li><p>sa forme</p></li>
+<li><p>l’observation d’un objet lointain.</p></li>
+</ul>
+<p>Prenez deux lentilles de distance focale connues, l’une convergente et l’autre divergente.</p>
+<div class="section" id="forme-de-la-lentille">
+<h3><span class="section-number">2.1.1. </span>Forme de la lentille<a class="headerlink" href="#forme-de-la-lentille" title="Permalink to this headline">¶</a></h3>
+<ol class="simple">
+<li><p>Observer la forme des deux lentilles et commenter la concavité des deux faces. Expliquer comment faire la différence entre une lentille convergente et une lentille divergente.</p></li>
+</ol>
+<div class="margin sidebar">
+<p class="sidebar-title"></p>
+<p>Cette méthode n’est pas toujours satisfaisante car la détermination des concavités des faces n’est pas toujours évident.</p>
+</div>
+</div>
+<div class="section" id="observation-d-un-objet-lointain">
+<h3><span class="section-number">2.1.2. </span>Observation d’un objet lointain.<a class="headerlink" href="#observation-d-un-objet-lointain" title="Permalink to this headline">¶</a></h3>
+<ol class="simple">
+<li><p>Observer un objet lointain. Grâce à l’étude préliminaire, vérifier que vous pouvez distinguer une lentille convergente d’une lentille divergente. Expliquer clairement la méthode.</p>
+<ol class="simple">
+<li><p><em>Question supplémentaire</em> : Pourquoi faut-il tendre le bras quand on observe à travers une lentille convergente ?</p></li>
+</ol>
+</li>
+<li><p>Prendre une lentille de distance focale inconnue et déterminer son type. Rendre compte de votre étude.</p></li>
+</ol>
+</div>
+</div>
+<div class="section" id="instruments-d-optique-40mn">
+<h2><span class="section-number">2.2. </span>Instruments d’optique (40mn)<a class="headerlink" href="#instruments-d-optique-40mn" title="Permalink to this headline">¶</a></h2>
+<div class="margin sidebar">
+<p class="sidebar-title"></p>
+<p>Cette partie fait suite à l’étude préliminaire du même nom.</p>
+</div>
+<p>Pour cette partie et pour les suivantes, vous prendrez toujours <strong>la même lentille convergente</strong> de manière à pouvoir comparer les méthodes et leur précision par la suite.</p>
+<div class="section" id="exemple-d-utilisation">
+<h3><span class="section-number">2.2.1. </span>Exemple d’utilisation.<a class="headerlink" href="#exemple-d-utilisation" title="Permalink to this headline">¶</a></h3>
+<p>Rappel : On veut déterminer la distance focale d’une lentille convergente en utilisant un objet à l’infini qu’on va simuler.</p>
+<div class="section" id="utilisation-d-un-ecran">
+<h4><span class="section-number">2.2.1.1. </span>Utilisation d’un écran<a class="headerlink" href="#utilisation-d-un-ecran" title="Permalink to this headline">¶</a></h4>
+<p>Les vidéo des réglages sont disponibles <a class="reference internal" href="etude_preliminaire.html#etude-preliminaire-instru-lunette"><span class="std std-ref">ici</span></a></p>
+<ol class="simple">
+<li><p>Régler l’instrument 2 choisi dans l’étude préliminaire.</p></li>
+<li><p>Utiliser l’instrument 2 pour régler l’instrument 1 (<em>utiliser une lentille de distance focale +50mm et l’objet de précision pour construire l’instrument 1</em>).</p></li>
+<li><p>Réaliser le reste du montage en utilisant le schéma de montage que vous avez proposé.</p></li>
+<li><p>Mesurer les deux grandeurs <span class="math notranslate nohighlight">\(x_1\)</span> et <span class="math notranslate nohighlight">\(x_2\)</span> choisie dans votre protocole et en déduire <span class="math notranslate nohighlight">\(f'\)</span>. <em>Si aucun calcul d’incertitude n’est demandé, commencer à observer les éléments qui causent une variabilité de la mesure.</em></p></li>
+</ol>
+</div>
+<div class="section" id="utilisation-d-un-viseur">
+<h4><span class="section-number">2.2.1.2. </span>Utilisation d’un viseur.<a class="headerlink" href="#utilisation-d-un-viseur" title="Permalink to this headline">¶</a></h4>
+<div class="margin sidebar">
+<p class="sidebar-title"></p>
+<p>Cette fois, certaines réponses quant au protocole sont données, servez-vous en pour vérifier votre protocole.</p>
+</div>
+<ol class="simple">
+<li><p><strong>Pensez à enlever l’écran.</strong></p></li>
+<li><p>Viser la lentille (un des bords) avec le viseur et mesurer la première grandeur notée <span class="math notranslate nohighlight">\(x_{v1}\)</span></p></li>
+<li><p>Reculer le viseur pour viser l’image avec le viseur et mesurer la deuxième grandeur notée <span class="math notranslate nohighlight">\(x_{v2}\)</span>. <em>Si aucun calcul d’incertitude n’est demandé, commencer à observer les éléments qui causent une variabilité de la mesure.</em></p></li>
+<li><p>En déduire <span class="math notranslate nohighlight">\(f'\)</span>.</p></li>
+</ol>
+</div>
+<div class="section" id="comparaison-qualitative">
+<h4><span class="section-number">2.2.1.3. </span>Comparaison qualitative.<a class="headerlink" href="#comparaison-qualitative" title="Permalink to this headline">¶</a></h4>
+<p>Sans entrer dans le détail des estimations, commenter les éléments qui occasionnent une incertitude sur les mesures de <span class="math notranslate nohighlight">\(x_1\)</span> et <span class="math notranslate nohighlight">\(x_2\)</span> puis de <span class="math notranslate nohighlight">\(x_{v1}\)</span> et <span class="math notranslate nohighlight">\(x_{v2}\)</span>. D’après vous, quelles mesures seront les moins incertaines ?</p>
+</div>
+</div>
+<div class="section" id="conclusion">
+<h3><span class="section-number">2.2.2. </span>Conclusion<a class="headerlink" href="#conclusion" title="Permalink to this headline">¶</a></h3>
+<p>Vous avez ainsi appris à utiliser les trois instruments principaux : lunette, collimateur et viseur.</p>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>On retiendra :</p>
+<ul class="simple">
+<li><p>La méthode d’utilisation du viseur pour mesurer une distance entre deux objets grâce à deux mesures de position <strong>du cavalier du viseur.</strong></p></li>
+<li><p>Les intérêts du viseur dans les mesures de distance.</p></li>
+<li><p>La méthode de réglage d’une lunette et son utilisation pour régler un collimateur.</p></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="focometrie-etude-semi-quantitative">
+<h1><span class="section-number">3. </span>Focométrie : Etude semi-quantitative<a class="headerlink" href="#focometrie-etude-semi-quantitative" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="utilisation-des-relations-de-descartes-1h">
+<h2><span class="section-number">3.1. </span>Utilisation des relations de Descartes (1h)<a class="headerlink" href="#utilisation-des-relations-de-descartes-1h" title="Permalink to this headline">¶</a></h2>
+<p>Vous allez réaliser le protocole que vous avez mis en place dans <a class="reference internal" href="etude_preliminaire.html#etude-preliminaire-descartes"><span class="std std-ref">l’étude préliminaire</span></a>.</p>
+<ol class="simple">
+<li><p>Réaliser le protocole et rendre compte des résultats de mesurage (sans leur incertitude) pour chaque mesurande directe.</p></li>
+<li><p>Déduire les distances algébriques <span class="math notranslate nohighlight">\(\overline{OA}\)</span> et <span class="math notranslate nohighlight">\(\overline{OA'}\)</span> puis la distance <span class="math notranslate nohighlight">\(f'\)</span>. Rendre compte du résultat obtenu. Commenter</p></li>
+</ol>
+<div class="margin sidebar">
+<p class="sidebar-title"></p>
+<p>L’exploitation des résultats restera ici succinte puisqu’on n’a pas estimé les incertitudes.</p>
+</div>
+</div>
+<div class="section" id="utilisation-des-relations-de-bessel-1h">
+<h2><span class="section-number">3.2. </span>Utilisation des relations de Bessel (1h)<a class="headerlink" href="#utilisation-des-relations-de-bessel-1h" title="Permalink to this headline">¶</a></h2>
+<p>Vous allez réaliser le protocole que vous avez mis en place dans <a class="reference internal" href="etude_preliminaire.html#etude-preliminaire-bessel"><span class="std std-ref">l’étude préliminaire</span></a>.</p>
+<ol class="simple">
+<li><p>Réaliser le protocole et rendre compte des résultats de mesurage (sans leur incertitude) pour chaque mesurande directe.</p></li>
+<li><p>Déduire les distances <span class="math notranslate nohighlight">\(d\)</span> et <span class="math notranslate nohighlight">\(D\)</span> puis la distance <span class="math notranslate nohighlight">\(f'\)</span>. Rendre compte du résultat obtenu. Commenter</p></li>
+</ol>
+<div class="margin sidebar">
+<p class="sidebar-title"></p>
+<p>L’exploitation des résultats restera ici succinte puisqu’on n’a pas estimé les incertitudes.</p>
+</div>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./notebook"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        
+        <div class='prev-next-bottom'>
+            
+    <a class='left-prev' id="prev-link" href="etude_preliminaire.html" title="previous page"><span class="section-number">1. </span>Etude préliminaire</a>
+    <a class='right-next' id="next-link" href="etude_complete.html" title="next page"><span class="section-number">4. </span>Etude quantitative</a>
+
+        </div>
+        
+        </div>
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By C. Lacpatia<br/>
+        
+            &copy; Copyright 2021.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+
+    
+  <script src="../_static/js/index.d3f166471bb80abb5163.js"></script>
+
+
+    
+  </body>
+</html>
