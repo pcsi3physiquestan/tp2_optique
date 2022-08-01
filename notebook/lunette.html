@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>5. (TP) Etude d’une lunette astronomique. (1h) &#8212; Etude de systèmes optiques</title>
     
-  <link href="../_static/css/theme.css" rel="stylesheet" />
-  <link href="../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+  <link href="../_static/css/theme.css" rel="stylesheet">
+  <link href="../_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
 
     
   <link rel="stylesheet"
@@ -22,8 +22,8 @@
       
 
     
-    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
-    <link rel="stylesheet" href="../_static/sphinx-book-theme.e8e5499552300ddf5d7adccae7cc3b70.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
@@ -31,33 +31,36 @@
     <link rel="stylesheet" type="text/css" href="../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
     <link rel="stylesheet" type="text/css" href="../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
     
-  <link rel="preload" as="script" href="../_static/js/index.1c5a1a01449ed65a7b51.js">
+  <link rel="preload" as="script" href="../_static/js/index.be7d3bbb2ef33a8344ce.js">
 
-    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
     <script src="../_static/jquery.js"></script>
     <script src="../_static/underscore.js"></script>
     <script src="../_static/doctools.js"></script>
     <script src="../_static/togglebutton.js"></script>
     <script src="../_static/clipboard.min.js"></script>
     <script src="../_static/copybutton.js"></script>
-    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
-    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
-    <script >
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script>
         const thebe_selector = ".thebe"
         const thebe_selector_input = "pre"
         const thebe_selector_output = ".output"
     </script>
     <script async="async" src="../_static/sphinx-thebe.js"></script>
-    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
-    <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"inlineMath": [["\\(", "\\)"]], "displayMath": [["\\[", "\\]"]], "processRefs": false, "processEnvironments": false}})</script>
     <link rel="canonical" href="https://pcsi3physiquestan.github.io/tp2_optique/notebook/lunette.html" />
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="6. Détermination d’une distance focale pour une lentille divergente." href="supplement.html" />
     <link rel="prev" title="4. (TP) Etude quantitative" href="etude_complete.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="docsearch:language" content="en" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
     
   </head>
   <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
@@ -75,13 +78,14 @@
     <a class="navbar-brand text-wrap" href="../index.html">
       
       
+      
       <h1 class="site-logo" id="site-title">Etude de systèmes optiques</h1>
       
     </a>
 </div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
   <i class="icon fas fa-search"></i>
   <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
-</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item active">
         <ul class="nav bd-sidenav">
  <li class="toctree-l1">
@@ -90,7 +94,7 @@
   </a>
  </li>
 </ul>
-<p class="caption">
+<p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
   Focométrie
  </span>
@@ -112,7 +116,7 @@
   </a>
  </li>
 </ul>
-<p class="caption">
+<p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
   Construction d'une lunette
  </span>
@@ -124,7 +128,7 @@
   </a>
  </li>
 </ul>
-<p class="caption">
+<p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
   Travaux supplémentaires
  </span>
@@ -224,7 +228,7 @@
             <div class="tocsection onthispage pt-5 pb-3">
                 <i class="fas fa-list"></i> Contents
             </div>
-            <nav id="bd-toc-nav">
+            <nav id="bd-toc-nav" aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#cahier-des-charges-de-la-lunette">
@@ -264,7 +268,7 @@
 <li><p>exploiter les mesures que vous aurez obtenus pour répondre aux problématiques posées.</p></li>
 </ul>
 <p>Ce notebook est téléchargeable en versino <code class="docutils literal notranslate"><span class="pre">.ipynb</span></code> grâce au bouton <img alt="Bouton téléchargerment" src="../_images/bouton_tl.png" />. <em>On rappelle qu’il faut choisir le format <code class="docutils literal notranslate"><span class="pre">.ipynb</span></code> et le placer dans un répertoire adapté pour l’ouvrir avec Jupyer Notebook</em>).</p>
-<div class="section" id="tp-etude-d-une-lunette-astronomique-1h">
+<div class="tex2jax_ignore mathjax_ignore section" id="tp-etude-d-une-lunette-astronomique-1h">
 <h1><span class="section-number">5. </span>(TP) Etude d’une lunette astronomique. (1h)<a class="headerlink" href="#tp-etude-d-une-lunette-astronomique-1h" title="Permalink to this headline">¶</a></h1>
 <p>Une lunette de Galilée est une lunette astronomique, c’est-à-dire destinée à viser des objets à l’infini, dont le dispositif oculaire est un système divergent. Nous allons chercher à construire une lunette de Galilée destinée à être utilisé par un oeil emmétrope dans les meilleurs conditions. Dans son modèle le plus simple, une lunette de Galilée est constituée :</p>
 <ul class="simple">
@@ -307,18 +311,13 @@
 <li><p>Proposer puis réaliser un protocole pour régler la lunette et la rendre utilisable par l’oeil emmétrope au repos construit précédemment. <strong>On rappelle que vous devez partir du principe que vous ne connaissez pas les distances focales des lentilles pour ce réglage.</strong></p></li>
 <li><p>Proposer puis réaliser un protocole permettant de mesurer le grossissement de la lunette ainsi construite. On devra vérifier l’adéquation entre la valeur mesurée et le cahier des charges.</p></li>
 </ol>
-<div class="cell docutils container">
+<div class="cell tag_remove-output tag_hide-input docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">Utilisez cette cellule pour réaliser les simulations de Monte-Carlo adéquates et obtenir les incertitude de mesure que vous devez calculer.</span>
 
 <span class="sd">Attention, les bibliothèques scientifiques n&#39;ont pas été chargées. Vous êtes complètement libre dans votre traitement.</span>
 <span class="sd">&quot;&quot;&quot;</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&quot;\nUtilisez cette cellule pour réaliser les simulations de Monte-Carlo adéquates et obtenir les incertitude de mesure que vous devez calculer.\n\nAttention, les bibliothèques scientifiques n&#39;ont pas été chargées. Vous êtes complètement libre dans votre traitement.\n&quot;
 </pre></div>
 </div>
 </div>
@@ -349,16 +348,27 @@
               </div>
               
         
-        <div class='prev-next-bottom'>
-            
-    <a class='left-prev' id="prev-link" href="etude_complete.html" title="previous page"><span class="section-number">4. </span>(TP) Etude quantitative</a>
-    <a class='right-next' id="next-link" href="supplement.html" title="next page"><span class="section-number">6. </span>Détermination d’une distance focale pour une lentille divergente.</a>
-
+            <!-- Previous / next buttons -->
+<div class='prev-next-area'> 
+    <a class='left-prev' id="prev-link" href="etude_complete.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title"><span class="section-number">4. </span>(TP) Etude quantitative</p>
         </div>
+    </a>
+    <a class='right-next' id="next-link" href="supplement.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title"><span class="section-number">6. </span>Détermination d’une distance focale pour une lentille divergente.</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
         
         </div>
     </div>
-    <footer class="footer mt-5 mt-md-0">
+    <footer class="footer">
     <div class="container">
       <p>
         
@@ -374,8 +384,7 @@
       </div>
     </div>
   
-  <script src="../_static/js/index.1c5a1a01449ed65a7b51.js"></script>
+  <script src="../_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
 
-  
   </body>
 </html>
