@@ -84,7 +84,7 @@ print("Résultat de mesurage pour u(x2) (sans unités) : " + str(np.std(x2_sim, 
 print("Résultat de mesurage pour x3 (sans unités) : " + str(x3_mes))
 print("Résultat de mesurage pour u(x3) (sans unités) : " + str(np.std(x3_sim, ddof=1)))
 
-print("Résultat de mesurage pour OA (sans unités) : " + str(x1_mes - x2_mes)
+print("Résultat de mesurage pour OA (sans unités) : " + str(x1_mes - x2_mes))
 print("Résultat de mesurage pour u(OA) (sans unités) : " + str(np.std(OA_sim, ddof=1)))
 
 print("Résultat de mesurage pour OA1 (sans unités) : " + str(x3_mes - x2_mes))
@@ -114,10 +114,20 @@ print("Résultat de mesurage : " + str(f1))
 print("Incertitude-type : " + str(f1_u))
 ------------------
 
-[1;36m  Cell [1;32mIn[1], line 64[1;36m[0m
-[1;33m    print("Résultat de mesurage pour OA (sans unités) : " + str(x1_mes - x2_mes)[0m
-[1;37m         ^[0m
-[1;31mSyntaxError[0m[1;31m:[0m '(' was never closed
+[1;31m---------------------------------------------------------------------------[0m
+[1;31mNameError[0m                                 Traceback (most recent call last)
+Cell [1;32mIn[1], line 45[0m
+[0;32m     35[0m N [38;5;241m=[39m [38;5;241m100000[39m
+[0;32m     37[0m [38;5;124;03m"""[39;00m
+[0;32m     38[0m [38;5;124;03mCréer les échantillons simulés des mesurandes x1, x2, x3[39;00m
+[0;32m     39[0m [38;5;124;03m(ne pas oublier le résultat de mesurage).[39;00m
+[1;32m   (...)[0m
+[0;32m     43[0m [38;5;124;03mCréer ensuite les échantillons simulés de OA, OA' puis f'.[39;00m
+[0;32m     44[0m [38;5;124;03m"""[39;00m
+[1;32m---> 45[0m x1_sim [38;5;241m=[39m x1_m [38;5;241m+[39m rd[38;5;241m.[39muniform([38;5;241m-[39mx1_d1, x1_d1, N) [38;5;241m+[39m rd[38;5;241m.[39muniform([38;5;241m-[39mx1_d2, x1_d2, N)
+[0;32m     46[0m x2_sim [38;5;241m=[39m [38;5;241m0[39m
+[0;32m     47[0m x3_sim [38;5;241m=[39m [38;5;241m0[39m
 
-SyntaxError: '(' was never closed (1390432851.py, line 64)
+[1;31mNameError[0m: name 'x1_m' is not defined
+NameError: name 'x1_m' is not defined
 
