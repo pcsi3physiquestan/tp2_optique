@@ -1,47 +1,60 @@
 
+
 <!DOCTYPE html>
 
-<html>
+
+<html lang="en" >
+
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>1. (Travail) Etude préliminaire &#8212; Etude de systèmes optiques</title>
-    
-  <!-- Loaded before other Sphinx assets -->
-  <link href="../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
-<link href="../_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
-    
-  <link rel="stylesheet"
-    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
-  <link rel="preload" as="font" type="font/woff2" crossorigin
-    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
-  <link rel="preload" as="font" type="font/woff2" crossorigin
-    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+    <title>1. (Travail) Etude préliminaire &#8212; Etude de systèmes optiques</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=ac02cc09edc035673794" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=ac02cc09edc035673794" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=ac02cc09edc035673794" rel="stylesheet" />
+
+  
+  <link href="../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=ac02cc09edc035673794" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
 
     <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
-    <link rel="stylesheet" href="../_static/styles/sphinx-book-theme.css?digest=5115cc725059bd94278eecd172e13a965bf8f5a9" type="text/css" />
+    <link rel="stylesheet" href="../_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" />
-    
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+  
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=ac02cc09edc035673794" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=ac02cc09edc035673794" />
+  <script src="../_static/vendor/fontawesome/6.1.2/js/all.min.js?digest=ac02cc09edc035673794"></script>
 
     <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
     <script src="../_static/jquery.js"></script>
     <script src="../_static/underscore.js"></script>
+    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../_static/doctools.js"></script>
     <script src="../_static/clipboard.min.js"></script>
     <script src="../_static/copybutton.js"></script>
-    <script src="../_static/scripts/sphinx-book-theme.js?digest=9c920249402e914e316237a7dbc6769907cce411"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
     <script>let toggleHintShow = 'Click to show';</script>
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
     <script src="../_static/togglebutton.js"></script>
-    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script src="../_static/design-tabs.js"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
 const thebe_selector = ".thebe,.cell"
@@ -51,57 +64,97 @@ const thebe_selector_output = ".output, .cell_output"
     <script async="async" src="../_static/sphinx-thebe.js"></script>
     <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
     <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'notebook/etude_preliminaire';</script>
     <link rel="canonical" href="https://pcsi3physiquestan.github.io/tp2_optique/notebook/etude_preliminaire.html" />
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="2. (TP) Présentation rapide du matériel" href="etude_rapide.html" />
     <link rel="prev" title="Introduction" href="../tp2_optique.html" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="docsearch:language" content="None">
-    
-
-    <!-- Google Analytics -->
-    
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
   </head>
-  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
-<!-- Checkboxes to toggle the left sidebar -->
-<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
-<label class="overlay overlay-navbar" for="__navigation">
-    <div class="visually-hidden">Toggle navigation sidebar</div>
-</label>
-<!-- Checkboxes to toggle the in-page toc -->
-<input type="checkbox" class="sidebar-toggle" name="__page-toc" id="__page-toc" aria-label="Toggle in-page Table of Contents">
-<label class="overlay overlay-pagetoc" for="__page-toc">
-    <div class="visually-hidden">Toggle in-page Table of Contents</div>
-</label>
-<!-- Headers at the top -->
-<div class="announcement header-item noprint"></div>
-<div class="header header-item noprint"></div>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
 
+  
+  
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
+    </nav>
+  
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
     
-    <div class="container-fluid" id="banner"></div>
-
     
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+  
 
-    <div class="container-xl">
-      <div class="row">
-          
-<!-- Sidebar -->
-<div class="bd-sidebar noprint" id="site-navigation">
-    <div class="bd-sidebar__content">
-        <div class="bd-sidebar__top"><div class="navbar-brand-box">
-    <a class="navbar-brand text-wrap" href="../index.html">
-      
-      
-      
-      <h1 class="site-logo" id="site-title">Etude de systèmes optiques</h1>
-      
-    </a>
-</div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
-  <i class="icon fas fa-search"></i>
-  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
-</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
-    <div class="bd-toc-item active">
+<a class="navbar-brand logo" href="../tp2_optique.html">
+  
+  
+  
+  
+  
+    <p class="title logo__title">Etude de systèmes optiques</p>
+  
+</a></div>
+        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
         
         <ul class="nav bd-sidenav bd-sidenav__home-link">
             <li class="toctree-l1">
@@ -110,381 +163,203 @@ const thebe_selector_output = ".output, .cell_output"
                 </a>
             </li>
         </ul>
-        <p aria-level="2" class="caption" role="heading">
- <span class="caption-text">
-  Focométrie
- </span>
-</p>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Focométrie</span></p>
 <ul class="current nav bd-sidenav">
- <li class="toctree-l1 current active">
-  <a class="current reference internal" href="#">
-   1. (Travail) Etude préliminaire
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="etude_rapide.html">
-   2. (TP) Présentation rapide du matériel
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="etude_complete.html">
-   4. (TP) Etude quantitative
-  </a>
- </li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">1. (Travail) Etude préliminaire</a></li>
+<li class="toctree-l1"><a class="reference internal" href="etude_rapide.html">2. (TP) Présentation rapide du matériel</a></li>
+
+<li class="toctree-l1"><a class="reference internal" href="etude_complete.html">4. (TP) Etude quantitative</a></li>
 </ul>
-<p aria-level="2" class="caption" role="heading">
- <span class="caption-text">
-  Construction d'une lunette
- </span>
-</p>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Construction d'une lunette</span></p>
 <ul class="nav bd-sidenav">
- <li class="toctree-l1">
-  <a class="reference internal" href="lunette.html">
-   5. (TP) Etude d’une lunette astronomique. (1h)
-  </a>
- </li>
+<li class="toctree-l1"><a class="reference internal" href="lunette.html">5. (TP) Etude d’une lunette astronomique. (1h)</a></li>
 </ul>
-<p aria-level="2" class="caption" role="heading">
- <span class="caption-text">
-  Travaux supplémentaires
- </span>
-</p>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Travaux supplémentaires</span></p>
 <ul class="nav bd-sidenav">
- <li class="toctree-l1">
-  <a class="reference internal" href="supplement.html">
-   6. Détermination d’une distance focale pour une lentille divergente.
-  </a>
- </li>
+<li class="toctree-l1"><a class="reference internal" href="supplement.html">6. Détermination d’une distance focale pour une lentille divergente.</a></li>
+
 </ul>
 
     </div>
 </nav></div>
-        <div class="bd-sidebar__bottom">
-             <!-- To handle the deprecated key -->
-            
-            <div class="navbar_extra_footer">
-            <a href="https://www.cedriclacpatia.fr">Site de la classe</a>
-            </div>
-            
-        </div>
     </div>
-    <div id="rtd-footer-container"></div>
-</div>
-
-
-          
-
-
-          
-<!-- A tiny helper pixel to detect if we've scrolled -->
-<div class="sbt-scroll-pixel-helper"></div>
-<!-- Main content -->
-<div class="col py-0 content-container">
-    
-    <div class="header-article row sticky-top noprint">
-        
-
-
-
-<div class="col py-1 d-flex header-article-main">
-    <div class="header-article__left">
-        
-        <label for="__navigation"
-  class="headerbtn"
-  data-toggle="tooltip"
-data-placement="right"
-title="Toggle navigation"
->
   
-
-<span class="headerbtn__icon-container">
-  <i class="fas fa-bars"></i>
-  </span>
-
-</label>
-
-        
-    </div>
-    <div class="header-article__right">
-<div class="menu-dropdown menu-dropdown-launch-buttons">
-  <button class="headerbtn menu-dropdown__trigger"
-      aria-label="Launch interactive content">
-      <i class="fas fa-rocket"></i>
-  </button>
-  <div class="menu-dropdown__content">
-    <ul>
-      <li>
-        <a href="https://mybinder.org/v2/gh/executablebooks/jupyter-book/master?urlpath=tree/notebook/etude_preliminaire.ipynb"
-   class="headerbtn"
-   data-toggle="tooltip"
-data-placement="left"
-title="Launch on Binder"
->
   
-
-<span class="headerbtn__icon-container">
-  
-    <img src="../_static/images/logo_binder.svg">
-  </span>
-<span class="headerbtn__text-container">Binder</span>
-</a>
-
-      </li>
-      
-    </ul>
+  <div class="sidebar-primary-items__end sidebar-primary__section">
   </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../_sources/notebook/etude_preliminaire.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
 </div>
+
+
+
 
 <button onclick="toggleFullScreen()"
-  class="headerbtn"
-  data-toggle="tooltip"
-data-placement="bottom"
-title="Fullscreen mode"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
 >
   
 
-<span class="headerbtn__icon-container">
+<span class="btn__icon-container">
   <i class="fas fa-expand"></i>
   </span>
 
 </button>
 
-<div class="menu-dropdown menu-dropdown-download-buttons">
-  <button class="headerbtn menu-dropdown__trigger"
-      aria-label="Download this page">
-      <i class="fas fa-download"></i>
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
   </button>
-  <div class="menu-dropdown__content">
-    <ul>
-      <li>
-        <a href="../_sources/notebook/etude_preliminaire.ipynb"
-   class="headerbtn"
-   data-toggle="tooltip"
-data-placement="left"
-title="Download notebook file"
->
-  
+`);
+</script>
 
-<span class="headerbtn__icon-container">
-  <i class="fas fa-code"></i>
-  </span>
-<span class="headerbtn__text-container">.ipynb</span>
-</a>
-
-      </li>
-      
-      <li>
-        <a href="../_sources/notebook/etude_preliminaire.md"
-   class="headerbtn"
-   data-toggle="tooltip"
-data-placement="left"
-title="Download source file"
->
-  
-
-<span class="headerbtn__icon-container">
-  <i class="fas fa-file"></i>
-  </span>
-<span class="headerbtn__text-container">.md</span>
-</a>
-
-      </li>
-      
-      <li>
-        
-<button onclick="printPdf(this)"
-  class="headerbtn"
-  data-toggle="tooltip"
-data-placement="left"
-title="Print to PDF"
->
-  
-
-<span class="headerbtn__icon-container">
-  <i class="fas fa-file-pdf"></i>
-  </span>
-<span class="headerbtn__text-container">.pdf</span>
-</button>
-
-      </li>
-      
-    </ul>
-  </div>
-</div>
-<label for="__page-toc"
-  class="headerbtn headerbtn-page-toc"
-  
->
-  
-
-<span class="headerbtn__icon-container">
-  <i class="fas fa-list"></i>
-  </span>
-
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
 </label>
-
+</div></div>
+      
     </div>
+  
 </div>
-
-<!-- Table of contents -->
-<div class="col-md-3 bd-toc show noprint">
-    <div class="tocsection onthispage pt-5 pb-3">
-        <i class="fas fa-list"></i> Contents
-    </div>
-    <nav id="bd-toc-nav" aria-label="Page">
-        <ul class="visible nav section-nav flex-column">
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#presentation-rapide-du-materiel">
-   1.1. Présentation rapide du matériel.
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#presentation">
-     1.1.1. Présentation
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#analyse">
-     1.1.2. Analyse
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#instruments-d-optique">
-   1.2. Instruments d’optique
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#presentation-generale">
-     1.2.1. Présentation générale
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#exemple-d-utilisation">
-     1.2.2. Exemple d’utilisation
-    </a>
-    <ul class="nav section-nav flex-column">
-     <li class="toc-h4 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#protocole-a-reproduire">
-       1.2.2.1. Protocole à reproduire
-      </a>
-     </li>
-    </ul>
-   </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#focometrie">
-   1.3. Focométrie
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#utilisation-des-relations-de-descartes">
-     1.3.1. Utilisation des relations de Descartes.
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#methode-de-bessel-ne-faire-que-si-vous-avez-bien-compris-la-methode-precedente">
-     1.3.2. Méthode de Bessel (ne faire que si vous avez bien compris la méthode précédente)
-    </a>
-   </li>
-  </ul>
- </li>
-</ul>
-
-    </nav>
 </div>
-    </div>
-    <div class="article row">
-        <div class="col pl-md-3 pl-lg-5 content-container">
-            <!-- Table of contents that is only displayed when printing the page -->
-            <div id="jb-print-docs-body" class="onlyprint">
-                <h1>(Travail) Etude préliminaire</h1>
-                <!-- Table of contents -->
-                <div id="print-main-content">
-                    <div id="jb-print-toc">
-                        
-                        <div>
-                            <h2> Contents </h2>
-                        </div>
-                        <nav aria-label="Page">
-                            <ul class="visible nav section-nav flex-column">
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#presentation-rapide-du-materiel">
-   1.1. Présentation rapide du matériel.
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#presentation">
-     1.1.1. Présentation
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#analyse">
-     1.1.2. Analyse
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#instruments-d-optique">
-   1.2. Instruments d’optique
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#presentation-generale">
-     1.2.1. Présentation générale
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#exemple-d-utilisation">
-     1.2.2. Exemple d’utilisation
-    </a>
-    <ul class="nav section-nav flex-column">
-     <li class="toc-h4 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#protocole-a-reproduire">
-       1.2.2.1. Protocole à reproduire
-      </a>
-     </li>
-    </ul>
-   </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#focometrie">
-   1.3. Focométrie
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#utilisation-des-relations-de-descartes">
-     1.3.1. Utilisation des relations de Descartes.
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#methode-de-bessel-ne-faire-que-si-vous-avez-bien-compris-la-methode-precedente">
-     1.3.2. Méthode de Bessel (ne faire que si vous avez bien compris la méthode précédente)
-    </a>
-   </li>
-  </ul>
- </li>
-</ul>
+              
+              
 
-                        </nav>
-                    </div>
-                </div>
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>(Travail) Etude préliminaire</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
             </div>
-            <main id="main-content" role="main">
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#presentation-rapide-du-materiel">1.1. Présentation rapide du matériel.</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#presentation">1.1.1. Présentation</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#analyse">1.1.2. Analyse</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#instruments-d-optique">1.2. Instruments d’optique</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#presentation-generale">1.2.1. Présentation générale</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#exemple-d-utilisation">1.2.2. Exemple d’utilisation</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#protocole-a-reproduire">1.2.2.1. Protocole à reproduire</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#focometrie">1.3. Focométrie</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#utilisation-des-relations-de-descartes">1.3.1. Utilisation des relations de Descartes.</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#methode-de-bessel-ne-faire-que-si-vous-avez-bien-compris-la-methode-precedente">1.3.2. Méthode de Bessel (ne faire que si vous avez bien compris la méthode précédente)</a></li>
+</ul>
+</li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
                 
-              <div>
-                
+<div id="searchbox"></div>
+                <article class="bd-article" role="main">
+                  
   <p>Cette partie du TP constitue l’étude préliminaire qui doit être réalisée <strong>avant le TP.</strong> Les questions posées doivent avoir une réponse écrite (vous pouvez tout à fait faire cette étude de manière manuscrite).</p>
-<div class="tex2jax_ignore mathjax_ignore section" id="travail-etude-preliminaire">
-<h1><span class="section-number">1. </span>(Travail) Etude préliminaire<a class="headerlink" href="#travail-etude-preliminaire" title="Permalink to this headline">#</a></h1>
-<div class="section" id="presentation-rapide-du-materiel">
-<h2><span class="section-number">1.1. </span>Présentation rapide du matériel.<a class="headerlink" href="#presentation-rapide-du-materiel" title="Permalink to this headline">#</a></h2>
-<div class="section" id="presentation">
-<h3><span class="section-number">1.1.1. </span>Présentation<a class="headerlink" href="#presentation" title="Permalink to this headline">#</a></h3>
+<section class="tex2jax_ignore mathjax_ignore" id="travail-etude-preliminaire">
+<h1><span class="section-number">1. </span>(Travail) Etude préliminaire<a class="headerlink" href="#travail-etude-preliminaire" title="Permalink to this heading">#</a></h1>
+<section id="presentation-rapide-du-materiel">
+<h2><span class="section-number">1.1. </span>Présentation rapide du matériel.<a class="headerlink" href="#presentation-rapide-du-materiel" title="Permalink to this heading">#</a></h2>
+<section id="presentation">
+<h3><span class="section-number">1.1.1. </span>Présentation<a class="headerlink" href="#presentation" title="Permalink to this heading">#</a></h3>
 <p>Voici une liste non exhaustive du matériel que vous utiliserez en TP :</p>
 <ul class="simple">
 <li><p><strong>Banc d’optique et cavaliers</strong> : pour réaliser des montages en facilitant l’alignement des composants et pour réaliser des mesures de positions</p></li>
@@ -502,28 +377,28 @@ title="Print to PDF"
       Your browser does not support the <code>video</code> element.
     </video></div></div>
 </div>
-</div>
-<div class="section" id="analyse">
-<h3><span class="section-number">1.1.2. </span>Analyse<a class="headerlink" href="#analyse" title="Permalink to this headline">#</a></h3>
+</section>
+<section id="analyse">
+<h3><span class="section-number">1.1.2. </span>Analyse<a class="headerlink" href="#analyse" title="Permalink to this heading">#</a></h3>
 <div class="tip admonition">
 <p class="admonition-title">Analyse</p>
 <p>Répondre (à l’écrit) aux questions suivantes:</p>
-<ol class="simple">
+<ol class="arabic simple">
 <li><p>Le cavalier palcé sur le banc optique permet de supporter une lentille, un objet, un écran… La mesure <em>directe</em> par les graduations situées sur le banc optique donnent-elles une <strong>position absolue</strong> de composant sur le banc optique ? ou un distance entre deux objets sur le banc optique ? Quelle conséquence cela aura sur l’estimation d’une incertitude d’une distance (par exemple une distance lentille-écran) ?</p></li>
 <li><p>Pour déterminer rapidement le caractère convergent ou divergent d’une lentille, une méthode simple consiste à observer un objet lointain avec la lentille.</p>
-<ol class="simple">
+<ol class="arabic simple">
 <li><p>Expliquer quel sens semi-quantitatif donner au terme <strong>lointain</strong> pour une lentille de distance focale <span class="math notranslate nohighlight">\(f'\)</span> ? Quelle approximation peut-on faire pour une étude théorique?</p></li>
 <li><p>Faire un schéma de tracé de rayon donnant l’image de l’objet lointain dans le cas d’une lentille convergente puis dans le cas d’une lentille divergente. Comment pourra-t-on faire la différence entre les deux?</p></li>
 </ol>
 </li>
 </ol>
 </div>
-</div>
-</div>
-<div class="section" id="instruments-d-optique">
-<h2><span class="section-number">1.2. </span>Instruments d’optique<a class="headerlink" href="#instruments-d-optique" title="Permalink to this headline">#</a></h2>
-<div class="section" id="presentation-generale">
-<h3><span class="section-number">1.2.1. </span>Présentation générale<a class="headerlink" href="#presentation-generale" title="Permalink to this headline">#</a></h3>
+</section>
+</section>
+<section id="instruments-d-optique">
+<h2><span class="section-number">1.2. </span>Instruments d’optique<a class="headerlink" href="#instruments-d-optique" title="Permalink to this heading">#</a></h2>
+<section id="presentation-generale">
+<h3><span class="section-number">1.2.1. </span>Présentation générale<a class="headerlink" href="#presentation-generale" title="Permalink to this heading">#</a></h3>
 <p>On va maintenant présenter trois instruments particuliers : la lunette afocale, le collimateur et le viseur. Commencez par observer les trois vidéos de présentation du matériel ci-dessous (Exécutez la cellule). (<em>Pensez à mettre en pause la vidéo pour lire les explications.</em>)</p>
 <div class="cell tag_remove-input docutils container" id="etude-preliminaire-instru-lunette">
 <div class="cell_output docutils container">
@@ -543,13 +418,13 @@ title="Print to PDF"
       Your browser does not support the <code>video</code> element.
     </video></div></div>
 </div>
-</div>
-<div class="section" id="exemple-d-utilisation">
-<h3><span class="section-number">1.2.2. </span>Exemple d’utilisation<a class="headerlink" href="#exemple-d-utilisation" title="Permalink to this headline">#</a></h3>
+</section>
+<section id="exemple-d-utilisation">
+<h3><span class="section-number">1.2.2. </span>Exemple d’utilisation<a class="headerlink" href="#exemple-d-utilisation" title="Permalink to this heading">#</a></h3>
 <div class="tip admonition">
 <p class="admonition-title">Analyse préliminaire</p>
 <p>Vous allez vous entrainer à utiliser ces instruments sur un cas simple : on veut déterminer la distance focale <span class="math notranslate nohighlight">\(f'\)</span> d’une lentille grâce à un objet à l’infini. Répondez aux questions suivantes pour préparer le TP.</p>
-<ol class="simple">
+<ol class="arabic simple">
 <li><p>Si l’objet est à l’infini, où va se situer l’image par la lentille ? Comment peut-on alors mesurer simplement la distance focale ?</p></li>
 <li><p>Parmi les trois instruments proposés, lequel (appelé instrument 1) permettra de simuler un objet à l’infini ? Lequel (appelé instrument 2) permettra de régler l’instrument 1 ?</p></li>
 <li><p>Si l’on place un écran derrière la lentille pour y former l’image. Combien (et quelle ?) mesure(s) directe(s) doit-on faire pour obtenir la distance focale ? Préciser comment obtenir <span class="math notranslate nohighlight">\(f'\)</span> de la (des) mesure(s) directe(s) réalisée(s).</p></li>
@@ -560,25 +435,25 @@ title="Print to PDF"
 <li><p>Réécrire le protocole et l’adapter à l’utilisation d’un viseur.</p></li>
 </ol>
 </div>
-<div class="margin sidebar">
+<aside class="margin sidebar">
 <p class="sidebar-title"></p>
 <p>Ce protocole peut peut-être vous aider à répondre à certaines des questions précédentes si vous avez eu des difficultés.</p>
-</div>
-<div class="section" id="protocole-a-reproduire">
-<h4><span class="section-number">1.2.2.1. </span>Protocole à reproduire<a class="headerlink" href="#protocole-a-reproduire" title="Permalink to this headline">#</a></h4>
+</aside>
+<section id="protocole-a-reproduire">
+<h4><span class="section-number">1.2.2.1. </span>Protocole à reproduire<a class="headerlink" href="#protocole-a-reproduire" title="Permalink to this heading">#</a></h4>
 <p><strong>But</strong> : On désire mesurer la distance focale d’une lentille.</p>
 <p><strong>Principe</strong> : Si un objet à l’infini éclaire la lentille, son image va se situer …… On peut donc estimer la distance focale de la lentille comme la distance ……………</p>
 <p><strong>Mode opératoire</strong> (avec l’écran) :</p>
-<ol class="simple">
+<ol class="arabic simple">
 <li><p>On réalise le montage ci-dessous (vous devrez dessiner le schéma du montage).</p></li>
 <li><p>Un ………. pour simuler un objet à l’infini. On place la lentille à étudier après le …………. (au plus près) puis un écran derrière la lentille.</p></li>
 <li><p>On mesure sur le banc optique ………………. (noté(e) <span class="math notranslate nohighlight">\(x_1\)</span>) et ……………… (noté(e) <span class="math notranslate nohighlight">\(x_2\)</span>). La distance focale sera donc estimée comme <span class="math notranslate nohighlight">\(f' = x_1 - x_2\)</span>.</p></li>
 </ol>
-</div>
-</div>
-</div>
-<div class="section" id="focometrie">
-<h2><span class="section-number">1.3. </span>Focométrie<a class="headerlink" href="#focometrie" title="Permalink to this headline">#</a></h2>
+</section>
+</section>
+</section>
+<section id="focometrie">
+<h2><span class="section-number">1.3. </span>Focométrie<a class="headerlink" href="#focometrie" title="Permalink to this heading">#</a></h2>
 <p>Le but du TP sera de mesurer de différentes manières la distance focale <span class="math notranslate nohighlight">\(f'\)</span> d’une même lentille convergente. Dans un deuxième temps, on cherchera à estimer les incertitude sur ces mesures pour comparer leur efficacité entre elle et avec les données constructeur.</p>
 <p>Vous allez dans cette étude préliminaire chercher à :</p>
 <ul class="simple">
@@ -586,12 +461,12 @@ title="Print to PDF"
 <li><p>choisir quels instruments seront nécessaires pour la manipulation.</p></li>
 <li><p>mettre en place le protocole expérimental qu’il faudra réaliser.</p></li>
 </ul>
-<div class="section" id="utilisation-des-relations-de-descartes">
-<span id="etude-preliminaire-descartes"></span><h3><span class="section-number">1.3.1. </span>Utilisation des relations de Descartes.<a class="headerlink" href="#utilisation-des-relations-de-descartes" title="Permalink to this headline">#</a></h3>
+<section id="utilisation-des-relations-de-descartes">
+<span id="etude-preliminaire-descartes"></span><h3><span class="section-number">1.3.1. </span>Utilisation des relations de Descartes.<a class="headerlink" href="#utilisation-des-relations-de-descartes" title="Permalink to this heading">#</a></h3>
 <div class="tip admonition">
 <p class="admonition-title">Mise en place du protocole</p>
 <p>On veut utiliser la relation de conjugaison de Descartes pour déterminer <span class="math notranslate nohighlight">\(f'\)</span>. On dispose d’un objet lumineux (à distance finie).</p>
-<ol class="simple">
+<ol class="arabic simple">
 <li><p>Rappeler la relation de conjugaison de Descartes des lentilles minces. En déduire que l’on peut obtenir une mesure de <span class="math notranslate nohighlight">\(f'\)</span> en réalisant la mesure des distances <span class="math notranslate nohighlight">\(\overline{OA}\)</span> et <span class="math notranslate nohighlight">\(\overline{OA'}\)</span>.</p></li>
 <li><p>En pratique, on ne peut pas mesurer directement <span class="math notranslate nohighlight">\(\overline{OA}\)</span> et <span class="math notranslate nohighlight">\(\overline{OA'}\)</span>. Si l’on utilise un écran pour former l’image, quels sont les mesurandes directs qui permettront de remonter aux distances <span class="math notranslate nohighlight">\(\overline{OA}\)</span> et <span class="math notranslate nohighlight">\(\overline{OA'}\)</span> ? Combien de mesurandes directes va-ton donc devoir mesurer ?</p></li>
 <li><p>Si on enlève l’écran et qu’on utilise un viseur. Combien de visée devra-ton réaliser (et que vise-t-on pour chaque visée) ? Quel mesurande directe mesure-t-on à chaque fois. Expliquer comment remonter aux distances <span class="math notranslate nohighlight">\(\overline{OA}\)</span> et <span class="math notranslate nohighlight">\(\overline{OA'}\)</span>.</p></li>
@@ -600,9 +475,9 @@ title="Print to PDF"
 <li><p>Si la lentille est divergente, peut-on encore utiliser l’un des protocoles précédents ? Si oui lequel ?</p></li>
 </ol>
 </div>
-</div>
-<div class="section" id="methode-de-bessel-ne-faire-que-si-vous-avez-bien-compris-la-methode-precedente">
-<span id="etude-preliminaire-bessel"></span><h3><span class="section-number">1.3.2. </span>Méthode de Bessel (ne faire que si vous avez bien compris la méthode précédente)<a class="headerlink" href="#methode-de-bessel-ne-faire-que-si-vous-avez-bien-compris-la-methode-precedente" title="Permalink to this headline">#</a></h3>
+</section>
+<section id="methode-de-bessel-ne-faire-que-si-vous-avez-bien-compris-la-methode-precedente">
+<span id="etude-preliminaire-bessel"></span><h3><span class="section-number">1.3.2. </span>Méthode de Bessel (ne faire que si vous avez bien compris la méthode précédente)<a class="headerlink" href="#methode-de-bessel-ne-faire-que-si-vous-avez-bien-compris-la-methode-precedente" title="Permalink to this heading">#</a></h3>
 <p>Le principe de la méthode de Bessel consiste à projeter l’image d’un objet à distance finie sur un écran à une distance <span class="math notranslate nohighlight">\(D\)</span> de l’objet lumineux grâce à la lentille étudiée. Sous la condition de projection <span class="math notranslate nohighlight">\(D \geq 4f'\)</span>, on peut montrer qu’il existe deux positions <span class="math notranslate nohighlight">\(x_1\)</span> et <span class="math notranslate nohighlight">\(x_2\)</span> de la lentille qui permettent la projection et que l’on a une relation entre <span class="math notranslate nohighlight">\(d = x_2 - x_1 &gt; 0\)</span> et <span class="math notranslate nohighlight">\(D\)</span> :</p>
 <div class="math notranslate nohighlight">
 \[
@@ -611,16 +486,16 @@ title="Print to PDF"
 <p><strong>Cette relation a été démontrée en exercice lors de l’étude de la projection. Il est vivement conseillé de s’entraîner à la démontrer mais ce n’est pas l’objet du TP.</strong></p>
 <div class="tip admonition">
 <p class="admonition-title">Mise en place du protocole</p>
-<ol class="simple">
+<ol class="arabic simple">
 <li><p>Expliquer comment mesurer <span class="math notranslate nohighlight">\(D\)</span>. On précisera combien de mesurandes directs il faut mesurer et comment on remonte à <span class="math notranslate nohighlight">\(D\)</span>.</p></li>
 <li><p>Expliquer comment mesurer <span class="math notranslate nohighlight">\(d\)</span>. On précisera combien de mesurandes directs il faut mesurer et comment on remonte à <span class="math notranslate nohighlight">\(d\)</span>.</p></li>
 <li><p>Exprimer <span class="math notranslate nohighlight">\(f'\)</span> en fonction de <span class="math notranslate nohighlight">\(d\)</span> et <span class="math notranslate nohighlight">\(D\)</span>.</p></li>
 <li><p>Rédiger proprement le protocole de la manipulation. Vous devrez bien présenter le <strong>but</strong>, le <strong>principe</strong> puis le <strong>mode opératoire</strong> en précisant quels sont les <strong>mesurandes directes</strong> et comment on remonte à la grandeur voulue.</p></li>
 </ol>
 </div>
-</div>
-</div>
-</div>
+</section>
+</section>
+</section>
 
     <script type="text/x-thebe-config">
     {
@@ -634,7 +509,7 @@ title="Print to PDF"
             mode: "python"
         },
         kernelOptions: {
-            kernelName: "python3",
+            name: "python3",
             path: "./notebook"
         },
         predefinedOutput: true
@@ -642,50 +517,118 @@ title="Print to PDF"
     </script>
     <script>kernelName = 'python3'</script>
 
-              </div>
+                </article>
               
-            </main>
-            <footer class="footer-article noprint">
-                
-    <!-- Previous / next buttons -->
-<div class='prev-next-area'>
-    <a class='left-prev' id="prev-link" href="../tp2_optique.html" title="previous page">
-        <i class="fas fa-angle-left"></i>
-        <div class="prev-next-info">
-            <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">Introduction</p>
-        </div>
+
+              
+              
+              
+              
+                <footer class="prev-next-footer">
+                  <!-- Previous / next buttons -->
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="../tp2_optique.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Introduction</p>
+      </div>
     </a>
-    <a class='right-next' id="next-link" href="etude_rapide.html" title="next page">
-    <div class="prev-next-info">
+    <a class="right-next"
+       href="etude_rapide.html"
+       title="next page">
+      <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
         <p class="prev-next-title"><span class="section-number">2. </span>(TP) Présentation rapide du matériel</p>
-    </div>
-    <i class="fas fa-angle-right"></i>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
     </a>
 </div>
-            </footer>
-        </div>
-    </div>
-    <div class="footer-content row">
-        <footer class="col footer"><p>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#presentation-rapide-du-materiel">1.1. Présentation rapide du matériel.</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#presentation">1.1.1. Présentation</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#analyse">1.1.2. Analyse</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#instruments-d-optique">1.2. Instruments d’optique</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#presentation-generale">1.2.1. Présentation générale</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#exemple-d-utilisation">1.2.2. Exemple d’utilisation</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#protocole-a-reproduire">1.2.2.1. Protocole à reproduire</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#focometrie">1.3. Focométrie</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#utilisation-des-relations-de-descartes">1.3.1. Utilisation des relations de Descartes.</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#methode-de-bessel-ne-faire-que-si-vous-avez-bien-compris-la-methode-precedente">1.3.2. Méthode de Bessel (ne faire que si vous avez bien compris la méthode précédente)</a></li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
   
-    By C. Lacpatia<br/>
-  
-      &copy; Copyright 2021.<br/>
-</p>
-        </footer>
-    </div>
+  <div class="footer-item">
     
+<p class="component-author">
+By C. Lacpatia
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  <p class="copyright">
+    
+      © Copyright 2021.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
 </div>
+          </footer>
+        
 
-
-      </div>
+      </main>
     </div>
+  </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script src="../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
+  <script src="../_static/scripts/bootstrap.js?digest=ac02cc09edc035673794"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=ac02cc09edc035673794"></script>
 
-
+  <footer class="bd-footer">
+  </footer>
   </body>
 </html>
